@@ -1,0 +1,120 @@
+body {
+ font-family: Open Sans, sans-serif;
+ margin: 0;
+ padding: 0;
+ background-image: url('/storage/emulated/0/Pictures/WhatsApp/IMG-20250225-WA0062.jpg);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+
+header {
+ background-color: #87CEEB;
+ color: #FFFFFF;
+ padding: 20px;
+ text-align: center;
+}
+
+nav ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+nav li {
+ display: inline-block;
+ margin-right: 20px;
+}
+
+nav a {
+ color: #FFFFFF;
+ text-decoration: none;
+}
+
+main {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 20px;
+}
+
+section {
+ background-color: rgba(255, 255, 255, 0.5);
+ padding: 20px;
+ margin-bottom: 20px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+ font-size: 24px;
+ margin-bottom: 10px;
+}
+
+h2 {
+ font-size: 18px;
+ margin-bottom: 10px;
+}
+
+#vpn-logos ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ justify-content: space-around;
+}
+
+#vpn-logos li {
+ margin-right: 20px;
+}
+
+#vpn-logos img {
+ width: 100px;
+ height: 100px;
+ object-fit: contain;
+}
+
+footer {
+ background-color: #87CEEB;
+ color: #FFFFFF;
+ padding: 10px;
+ text-align: center;
+ clear: both;
+}
+
+/* Requêtes média pour les écrans plus petits */
+@media (max-width: 768px) {
+ main {
+ padding: 10px;
+ }
+
+ section {
+ padding: 10px;
+ margin-bottom: 10px;
+ }
+
+ #vpn-logos ul {
+ flex-direction: column;
+ }
+
+ #vpn-logos li {
+ margin-right: 0;
+ margin-bottom: 10px;
+ }
+}
+
+/* Requêtes média pour les écrans encore plus petits */
+@media (max-width: 480px) {
+ h1 {
+ font-size: 18px;
+ }
+
+ h2 {
+ font-size: 14px;
+ }
+
+ #vpn-logos img {
+ width: 50px;
+ height: 50px;
+ }
+}
+
